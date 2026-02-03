@@ -6,8 +6,25 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://smartcarwash.cl/index.html</loc>
+    <lastmod>2026-02-03</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://smartcarwash.cl/domicilio.html</loc>
     <lastmod>2026-02-03</lastmod>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://smartcarwash.cl/detailing.html</loc>
+    <lastmod>2026-02-03</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartcarwash.cl/blog.html</loc>
+    <lastmod>2026-02-03</lastmod>
+    <priority>0.7</priority>
+  </url>
 </urlset>
+
+<!-- Sitemap actualizado para re-indexación -->
