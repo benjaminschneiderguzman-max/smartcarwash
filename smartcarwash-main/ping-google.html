@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ping Google - SmartCarWash</title>
+    <meta name="robots" content="noindex">
+
+    <!-- Script automático de ping a Google -->
+    <script>
+        // Notificar automáticamente a Google sobre el sitemap
+        const sitemapUrl = 'https://smartcarwash.cl/sitemap.xml';
+
+        // Crear solicitud de ping
+        const pingUrls = [
+            `https://www.google.com/ping?sitemap=${encodeURIComponent(sitemapUrl)}`,
+            `https://www.bing.com/ping?sitemap=${encodeURIComponent(sitemapUrl)}`
+        ];
+
+        // Log para depuración
+        console.log('Auto-ping iniciado para:', sitemapUrl);
+
+        // Ejecutar pings
+        ping Urls.forEach(url => {
+            const img = new Image();
+            img.src = url;
+            console.log('Ping enviado a:', url);
+        });
+
+        // Redireccionar después de 3 segundos
+        setTimeout(() => {
+            window.location.href = '/';
+        }, 3000);
+    </script>
+</head>
+
+<body>
+    <div style="text-align: center; margin-top: 50px; font-family: Arial;">
+        <h1>Notificando a Google...</h1>
+        <p>Redirigiendo automáticamente...</p>
+    </div>
+</body>
+
+</html>
