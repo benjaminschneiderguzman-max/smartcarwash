@@ -1,16 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
   <defs>
-    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#00d4ff;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#0077ff;stop-opacity:1" />
-    </linearGradient>
+    <radialGradient id="blueGradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:#00c2ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#007bff;stop-opacity:1" />
+    </radialGradient>
   </defs>
-  <circle cx="50" cy="50" r="48" fill="url(#blueGrad)" />
-  <!-- Simple white car shape -->
-  <path d="M75,55 L75,65 L25,65 L25,55 L30,45 C32,40 35,38 40,38 L60,38 C65,38 68,40 70,45 Z" fill="white" />
-  <circle cx="35" cy="65" r="5" fill="#333" />
-  <circle cx="65" cy="65" r="5" fill="#333" />
-  <!-- Green leaf on top -->
-  <path d="M50,38 C55,30 65,30 65,40 C65,50 50,55 50,38 Z" fill="#10b981" />
-  <path d="M50,38 L65,40" stroke="#065f46" stroke-width="1" fill="none" />
+  
+  <!-- Main Blue Circle -->
+  <circle cx="256" cy="256" r="250" fill="url(#blueGradient)" />
+  
+  <!-- Car Shape (Stylized and Centered) -->
+  <path d="M380,330 L380,280 C380,260 365,245 345,245 L167,245 C147,245 132,260 132,280 L132,330 C132,345 145,358 160,358 L170,358 L170,370 C170,378 177,385 185,385 L210,385 C218,385 225,378 225,370 L225,358 L287,358 L287,370 C287,378 294,385 302,385 L327,385 C335,385 342,378 342,370 L342,358 L352,358 C367,358 380,345 380,330 Z M200,285 C211,285 220,294 220,305 C220,316 211,325 200,325 C189,325 180,316 180,305 C180,294 189,285 200,285 Z M312,285 C323,285 332,294 332,305 C332,316 323,325 312,325 C301,325 292,316 292,305 C292,294 301,285 312,285 Z" fill="white" />
+  <path d="M320,245 L300,195 C295,185 285,180 275,180 L237,180 C227,180 217,185 212,195 L192,245" fill="white" />
+
+  <!-- Green Leaf -->
+  <path d="M360,180 C400,130 300,100 280,180 C270,220 340,230 360,180 Z" fill="#2ecc71" />
+  <path d="M280,180 C290,200 330,210 360,180" stroke="#27ae60" stroke-width="5" fill="none" />
 </svg>
