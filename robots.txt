@@ -1,11 +1,15 @@
-# robots.txt optimizado para SmartCarWash
 User-agent: *
 Allow: /
+
+# Bloquear directorios sensibles
 Disallow: /admin/
 Disallow: /*.json$
 
-# Crawl-delay para evitar sobrecarga del servidor
+# Crawl-delay para evitar sobrecarga
 Crawl-delay: 1
 
 # Sitemap principal
 Sitemap: https://smartcarwash.cl/sitemap.xml
+
+# Ping a Google para indexación rápida
+# Google usa este archivo automáticamente
