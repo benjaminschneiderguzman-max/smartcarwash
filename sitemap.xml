@@ -3,26 +3,30 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://smartcarwash.cl/</loc>
-    <lastmod>2026-02-15</lastmod>
+    <lastmod>2026-02-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1520340356584-f9917d1eea6f?q=80&amp;w=1200</image:loc>
+      <image:title>Lavado de carrocería a domicilio en Santiago - SmartCarWash</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://smartcarwash.cl/domicilio.html</loc>
-    <lastmod>2026-02-15</lastmod>
+    <lastmod>2026-02-27</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.95</priority>
   </url>
   <url>
     <loc>https://smartcarwash.cl/detailing.html</loc>
-    <lastmod>2026-02-15</lastmod>
+    <lastmod>2026-02-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://smartcarwash.cl/blog.html</loc>
-    <lastmod>2026-02-15</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-02-27</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 </urlset>

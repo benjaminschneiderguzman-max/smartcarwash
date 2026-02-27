@@ -1,15 +1,15 @@
 User-agent: *
 Allow: /
 
-# Bloquear directorios sensibles
+# Bloquear archivos innecesarios para crawlers
 Disallow: /admin/
 Disallow: /*.json$
+Disallow: /smartcarwash-main/
 
-# Crawl-delay para evitar sobrecarga
-Crawl-delay: 1
+# Permitir archivos esenciales de SEO
+Allow: /images/
+Allow: /index.css
+Allow: /main.js
 
 # Sitemap principal
 Sitemap: https://smartcarwash.cl/sitemap.xml
-
-# Ping a Google para indexación rápida
-# Google usa este archivo automáticamente
