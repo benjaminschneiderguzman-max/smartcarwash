@@ -1,0 +1,10 @@
+# Ejecutables de herramientas (demasiado grandes para GitHub)
+Antigravity.exe
+*.exe
+
+# Videos pesados generados localmente
+grok-video-*.mp4
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
